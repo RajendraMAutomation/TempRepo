@@ -31,7 +31,7 @@ public void user_is_already_on_login_page() {
    LoginPage loginPage= new LoginPage();
    
 }
-
+//777
 @When("User enter login credentials")		
 public void user_enter_login_credentials(DataTable users) {
 	List<Map<String, String>> data = users.asMaps();
